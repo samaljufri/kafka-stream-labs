@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sensor-monitor
+  kafka:
+    bootstrap-servers: localhost:9092
+    streams:
+      application-id: sensor-streams
+
+lab01:
+  kafka.streams.application-id: sensor-streams
+  oxygen.threshold: 90
+  sensor.timeout.seconds: 3
